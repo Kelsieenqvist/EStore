@@ -1,0 +1,50 @@
+﻿.custom-card {
+    /* box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2); */
+    font-family: 'Open Sans';
+    margin: 30px;
+    border: none;
+    color: black;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.custom-card:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    opacity: 1;
+    animation: flash 1.0s;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0px !important;
+}
+
+.card-subtitle {
+    padding: 15px;
+}
+
+.price {
+    font-size: 24px;
+}
+
+.card-title, .card-subtitle {
+    text-align: center;
+}
+
+.test {
+    width: 75%;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+@keyframes flash {
+    0% {
+        opacity: .7;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

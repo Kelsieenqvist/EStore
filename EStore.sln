@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EStore", "EStore\EStore.csproj", "{C6B703B5-CC1B-4B2B-8A85-2530D085BDF4}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EStoreDB", "EStoreDB\EStoreDB.sqlproj", "{08E34F7B-A0B1-47CA-A158-6B2A49198513}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6B703B5-CC1B-4B2B-8A85-2530D085BDF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B703B5-CC1B-4B2B-8A85-2530D085BDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B703B5-CC1B-4B2B-8A85-2530D085BDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B703B5-CC1B-4B2B-8A85-2530D085BDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E34F7B-A0B1-47CA-A158-6B2A49198513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E34F7B-A0B1-47CA-A158-6B2A49198513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E34F7B-A0B1-47CA-A158-6B2A49198513}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{08E34F7B-A0B1-47CA-A158-6B2A49198513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E34F7B-A0B1-47CA-A158-6B2A49198513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E34F7B-A0B1-47CA-A158-6B2A49198513}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E0E8D96-A87E-4E81-B5D9-8B1236726AD0}
+	EndGlobalSection
+EndGlobal

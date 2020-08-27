@@ -1,0 +1,66 @@
+﻿.newsletterform {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -7rem;
+    background-image: url('https://pbs.twimg.com/media/DPemyUYWkAEtTJy.jpg');
+    padding: 10px;
+    height: 310px;
+    margin-bottom: 60px;
+}
+
+.newsletterform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: lightgray;
+    flex-direction: column;
+    color: white;
+}
+
+.subscribe {
+    /* position: absolute; */
+    top: 228.5%;
+}
+
+.inputbox {
+    background-color: #ffffffde;
+    color: #000 !important;
+    padding-left: 15px;
+    margin-right: 40px;
+}
+
+.inputbox, .btn {
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Open-Sans', sans-serif;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    width: 220px;
+    height: 60px;
+}
+
+.form-input {
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+
+
+.collbtn {
+    padding: 15px 30px;
+    margin-top: 15px !important;
+    border: solid;
+    color: #fff;
+    border-radius: 5px;
+    border-color: white;
+    width: 180px;
+    height: 60px;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+    .collbtn:hover {
+        background-color: gray;
+    }

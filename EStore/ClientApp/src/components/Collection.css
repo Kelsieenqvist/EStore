@@ -1,0 +1,113 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+/* FIRST ROW */
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.column, .column2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 40vh;
+}
+
+.collbtn {
+    padding: 15px 30px;
+    margin-top: 15px !important;
+    border: solid;
+    color: #fff;
+    border-radius: 5px;
+    border-color: white;
+    width: 180px;
+    height: 60px;
+    background-color: transparent;
+    font-size: 18px;
+}
+.collbtn:hover{
+    background-color: gray;
+}
+.btn-secondary {
+    background-color: #09283A !important;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 15px !important;
+}
+
+#btnCollection {
+    margin-top: 10px !important
+}
+
+.btn-secondary:hover {
+    background-color: #437D9F !important;
+}
+
+.left {
+    width: 62%;
+    background-color: lightgray;
+    background-image: url("https://media-s3-us-east-1.ceros.com/centaur-media/images/2018/10/01/4ddba72f7ffd400383a6f113cde504da/gymshark-ig-hero-1.jpg?imageOpt=1&fit=bounds&width=1008");
+    background-size: cover;
+    margin-left: 5.67rem;
+}
+
+.right {
+    width: 25%;
+    background-image: url("https://d2h1pu99sxkfvn.cloudfront.net/b0/340875/455787941_TYVABsR69q/P0.jpg");
+    background-size: cover;
+    margin-left: 30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+}
+
+/* SECOND ROW */
+
+.column2 {
+    float: left;
+    padding: 10px;
+    height: 300px;
+    margin-bottom: 60px;
+}
+
+.left2 {
+    width: 62%;
+    background-color: lightgray;
+    background-image: url("https://dailycandidnews.com/wp-content/uploads/2019/10/Gymshark-Heroines.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+
+.right2 {
+    width: 25%;
+    background-image: url("https://i.pinimg.com/736x/4c/82/dd/4c82ddf3d550a0f3899ed2938a24a30e.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position-y: 0.25rem;
+    margin-left: 5.67rem;
+    margin-right: 30px;
+    height: 40vh;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header-content {
+    font-size: 3rem;
+    margin-top: -5rem;
+}
